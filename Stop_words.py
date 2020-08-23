@@ -13,4 +13,4 @@ print(nlp.vocab['btw'].is_stop) #output:True , will give a boolean output if the
 nlp.Defaults.stop_words.remove('almost')  #remove "almost" as a stop word
 print(nlp.vocab['almost'].is_stop) #output:False , will give a boolean output if the given word is preset in stop words or not
 
-
+print(prem)
